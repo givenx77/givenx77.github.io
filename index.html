@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+  <!--=============== REMIX ICONS ===============-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+  <!--=============== CSS ===============-->
+  <link rel="stylesheet" href="style.css">
+ 
+  <title>Ayman satouani</title>
+</head>
+
+
+<body>
+  <!--=============== HEADER ===============-->
+  <header class="profile container">
+    <!-- Theme button -->
+    <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+    <div class="profile__container grid">
+      <div class="profile__data">
+        <div class="profile__border">
+          <div class="profile__perfil">
+            <img src="./givenpdp.jpeg" alt="it's me, yes">
+          </div>
+        </div>
+
+        <h2 class="profile__name">Ayman Satouani</h2>
+        <h3 class="profile__profession">Full Stack developer</h3>
+
+        <ul class="profile__social">
+          <a href="https://www.instagram.com/givengoon" target="_blank" class="profile__social-link">
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/ayman-satouani-4698a4243" target="_blank" class="profile__social-link">
+            <i class="ri-linkedin-box-line"></i>
+          </a>
+          <a href="https://github.com/givenx77" target="_blank" class="profile__social-link">
+            <i class="ri-github-line"></i>
+          </a>
+        </ul>
+      </div>
+
+      <div class="profile__info grid">
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">3</h3>
+          <p class="profile__info-description">
+            Years of <br> work
+          </p>
+        </div>
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">+20</h3>
+          <p class="profile__info-description">
+            Completed <br> projects
+          </p>
+        </div>
+        <div class="profile__info-group">
+          <h3 class="profile__info-number">4</h3>
+          <p class="profile__info-description">Satisfied <br> customers</p>
+        </div>
+      </div>
+
+      <div class="profile__buttons">
+        
+        <a download="" href="./given cv.pdf" class="button">
+          Download CV <i class="ri-download-line"></i>
+        </a>
+
+        <div class="profile__buttons-small">
+        
+          <a href="https://wa.me/212657189640" target="_blank" class="button button__small button__gray">
+            <i class="ri-whatsapp-line"></i>
+          </a>
+          
+          <a href="https://m.me/given.7x" target="_blank" class="button button__small button__gray">
+            <i class="ri-messenger-line"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!--=============== MAIN ===============-->
+  <main class="main">
+    <section class="filters container">
+      <!--=============== FILTERS TABS ===============-->
+      <ul class="filters__content">
+        <button class="filters__button filter-tab-active" data-target="#projects">
+          Projects
+        </button>
+        <button class="filters__button" data-target="#skills">
+          Skills
+        </button>
+      </ul>
+
+      <div class="filters__sections">
+        <!--=============== PROJECTS ===============-->
+        <div class="projects__content grid filters__active" data-content id="projects">
+          <article class="projects__card">
+           
+            <img src="https://codejs.com/images/web_assets_folder/project1_portfolio.jpg" alt="" class="projects__img">
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Web</span>
+                <h3 class="projects__title">Gwala Site</h3>
+                <a href="https://www.gwala.co/" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="https://codejs.com/images/web_assets_folder/project2_portfolio.jpg" alt="" class="projects__img">
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Web</span>
+                <h3 class="projects__title">Portfolio website</h3>
+                <a href="#" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="https://codejs.com/images/web_assets_folder/project4_portfolio.jpg" alt="" class="projects__img">
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Mobile</span>
+                <h3 class="projects__title">Gwala App</h3>
+                <a href="#" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="projects__card">
+            <img src="https://codejs.com/images/web_assets_folder/project5_portfolio.jpg" alt="" class="projects__img">
+
+            <div class="projects__modal">
+              <div>
+                <span class="projects__subtitle">Design</span>
+                <h3 class="projects__title">E-sound</h3>
+                <a href="https://esound.app/" class="projects__button button button__small">
+                  <i class="ri-link"></i>
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <!--=============== SKILLS ===============-->
+        <div class="skills__content grid" data-content id="skills">
+          <div class="skills__area">
+            <h3 class="skills__title">Frontend Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">Advanced</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Git</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skills__area">
+            <h3 class="skills__title">Backend Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">MySQL</h3>
+                    <span class="skills__level">Advance</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Firebase</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__level">Basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="ri-checkbox-circle-line"></i>
+
+                  <div>
+                    <h3 class="skills__name">Node Js</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--=============== FOOTER ===============-->
+  <footer class="footer container">
+    <span class="footer__copy">
+      &#169; Given. All rigths reserved
+    </span>
+  </footer>
+
+  <!--=============== SCROLLREVEAL ===============-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--=============== MAIN JS ===============-->
+  <script> 
+  const tabs = document.querySelectorAll('[data-target]'),
+  tabContents = document.querySelectorAll('[data-content]');
+tabs.forEach(tab => {
+  tab.addEventListener('click', () => {
+    const target = document.querySelector(tab.dataset.target);
+    tabContents.forEach(tc => {
+      tc.classList.remove('filters__active');
+
+    });
+    target.classList.add('filters__active');
+    tabs.forEach(t => {
+      t.classList.remove('filter-tab-active');
+
+    });
+    tab.classList.add('filter-tab-active');
+
+  });
+
+});
+const themeButton = document.getElementById('theme-button');
+const darkTheme = 'dark-theme';
+const iconTheme = 'ri-sun-line';
+const selectedTheme = localStorage.getItem('selected-theme');
+const selectedIcon = localStorage.getItem('selected-icon');
+const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light';
+const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'ri-moon-line' : 'ri-sun-line';
+if (selectedTheme) {
+  document.body.classList[selectedTheme === 'dark' ? 'add' : 'remove'](darkTheme);
+  themeButton.classList[selectedIcon === 'ri-moon-line' ? 'add' : 'remove'](iconTheme);
+
+};
+themeButton.addEventListener('click', () => {
+  document.body.classList.toggle(darkTheme);
+  themeButton.classList.toggle(iconTheme);
+  localStorage.setItem('selected-theme', getCurrentTheme());
+  localStorage.setItem('selected-icon', getCurrentIcon());
+
+});
+const sr = ScrollReveal({
+  origin: 'top',
+  distance: '60px',
+  duration: 2500,
+  delay: 400,
+
+});
+sr.reveal(`.profile__border`);
+sr.reveal(`.profile__name`, {
+  delay: 500
+
+});
+sr.reveal(`.profile__profession`, {
+  delay: 600
+
+});
+sr.reveal(`.profile__social`, {
+  delay: 700
+
+});
+sr.reveal(`.profile__info-group`, {
+  interval: 100,
+  delay: 700
+
+});
+sr.reveal(`.profile__buttons`, {
+  delay: 800
+
+});
+sr.reveal(`.filters__content`, {
+  delay: 900
+
+});
+sr.reveal(`.filters`, {
+  delay: 1000
+
+});
+  
+  </script>
+</body>
+
+</html>
